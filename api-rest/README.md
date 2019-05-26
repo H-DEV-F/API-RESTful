@@ -36,9 +36,10 @@ Response - [{
 "sexo":"F",
 "created_at":"2019-05-25 15:11:52",
 "updated_at":"2019-05-25 15:11:52"}]
+</p>
 
 
-
+<p align="center">
 Rquest - http://api-restful.com:8081/api/funcionarios/get/2
 
 Response - {
@@ -51,21 +52,23 @@ Response - {
 "sexo":"F",
 "created_at":"2019-05-25 14:54:44",
 "updated_at":"2019-05-25 14:54:44"}
+</p>
 
+<p align="center">
 Request - http://api-restful.com:8081/api/funcionarios/update/4?nome=Glaucio&sobrenome=Rodrigues&idade=26&sexo=M
-
-
 
 Response - {"success":
 "Os dados do usuário Glaucio foram atualizados com sucesso!"}
+</p>
 
+<p align="center">
 Request - http://api-restful.com:8081/api/funcionarios/delete/5
-
-
 
 Response - {"success":
 "O funcionário foi excluido com sucesso!"}
+</p>
 
+<p align="center">
 Request - http://api-restful.com:8081/api/funcionarios/relatorio
 
 Response - {"Total de homens":3,
